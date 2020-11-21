@@ -46,8 +46,6 @@ CREATE TABLE dept_manager (
 	foreign key(emp_no) references employees(emp_no)
 );
 
-
-
 CREATE TABLE salaries (
     emp_no int   NOT NULL,
     salary int   NOT NULL,
